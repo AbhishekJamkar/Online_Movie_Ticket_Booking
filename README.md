@@ -13,11 +13,10 @@ This is a README for a movie ticket booking web application built using .NET Cor
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [Installation](#installation)
-3. [Project Structure](#project-structure)
-4. [Configuration](#configuration)
-5. [Database Setup](#database-setup)
-6. [Running the Application](#running-the-application)
-7. [Features](#features)
+3. [Configuration](#configuration)
+4. [Database Setup](#database-setup)
+5. [Running the Application](#running-the-application)
+6. [Features](#features)
 
 ## Prerequisites
 Before getting started, make sure you have the following prerequisites installed on your system:
@@ -32,22 +31,6 @@ Before getting started, make sure you have the following prerequisites installed
 1. Clone this repository: `git clone https://github.com/AbhishekJamkar/Online_Movie_Ticket_Booking/repo.git`
 2. Open the project in your code editor.
 
-## Project Structure
-movie-ticket-booking-app/
-│
-├── MovieTicketBookingApp/
-│ ├── Controllers/ # MVC Controllers
-│ ├── Models/ # Data Models
-│ ├── Views/ # Razor Views
-│ ├── appsettings.json # Configuration settings
-│ └── ...
-│
-├── ClientApp/
-│ ├── src/
-│ ├── ...
-│
-├── ...
-│
 
 ## Configuration
 - Configure your database connection string in `appsettings.json`.
@@ -73,9 +56,7 @@ dotnet run
 - Browse Movie Listings
 - Select Showtimes
 - Seat Selection
-- Payment Processing
 - Booking Confirmation
-- User Profile
 - Admin Dashboard (for managing movies, theaters, etc.)
 
 Remember to replace "your/repo" with the actual GitHub repository URL where the project is hosted, and customize the content and structure according to your project's needs.
